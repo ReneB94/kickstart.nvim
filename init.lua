@@ -26,7 +26,6 @@ require('lazy').setup({
   -- NOTE: First, some plugins that don't require any configuration
 
   'vim-scripts/ReplaceWithRegister',
-  'tpope/vim-surround',
 
   -- Git related plugins
   'tpope/vim-fugitive',
@@ -373,6 +372,7 @@ local on_attach = function(_, bufnr)
 
   -- See `:help K` for why this keymap
   nmap('K', vim.lsp.buf.hover, 'Hover Documentation')
+  nmap('gh', vim.lsp.buf.hover, 'Hover Documentation')
   nmap('<C-k>', vim.lsp.buf.signature_help, 'Signature Documentation')
 
   -- Lesser used LSP functionality
