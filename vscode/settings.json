@@ -1,0 +1,183 @@
+{
+  "editor.bracketPairColorization.enabled": true,
+  "emmet.showExpandedAbbreviation": "never",
+  "emmet.showAbbreviationSuggestions": false,
+  "editor.lineNumbers": "relative",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.format.enable": true,
+  "vim.easymotion": true,
+  "vim.leader": "<space>",
+  "vim.replaceWithRegister": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "redhat.telemetry.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "editor.maxTokenizationLineLength": 40000,
+  "editor.tokenColorCustomizations": {
+    "[Solarized Light]": {
+      "textMateRules": [
+        {
+          "scope": ["variable.other.property.ts", "meta.object-literal.key.ts"],
+          "settings": {
+            "foreground": "#657B83" // Example color in hex format
+          }
+        },
+        {
+          "scope": ["variable.language.this.ts"],
+          "settings": {
+            "foreground": "#5f50eb"
+          }
+        }
+      ]
+    }
+  },
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ],
+  "workbench.editorAssociations": {
+    "*.md": "default"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "workbench.tree.indent": 16,
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "cSpell.userWords": [
+    "Backoff",
+    "erstellen",
+    "Powertools",
+    "Responsibles",
+    "totp",
+    "Totp"
+  ],
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "hediet.vscode-drawio.resizeImages": null,
+  "hediet.vscode-drawio.theme": "atlas",
+  "gitlens.graph.layout": "editor",
+  "gitlens.graph.minimap.enabled": false,
+  "yaml.schemas": {
+    "file:///Users/renebeneke/.vscode/extensions/atlassian.atlascode-3.0.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "cSpell.language": "en,de-DE",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["C-h"],
+      "after": ["C-w", "h"]
+    },
+    {
+      "before": ["C-l"],
+      "after": ["C-w", "l"]
+    },
+    {
+      "before": ["<leader>", "y"],
+      "after": ["\"", "*", "y"]
+    },
+    {
+      "before": ["<leader>", "i"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["editor.toggleFoldRecursively"]
+    },
+    {
+      "before": ["<leader>", "F"],
+      "commands": ["editor.toggleFold"]
+    },
+    {
+      "before": ["<C-j>"],
+      "commands": ["editor.action.insertCursorBelow"]
+    },
+    {
+      "before": ["<C-k>"],
+      "commands": ["editor.action.insertCursorAbove"]
+    }
+  ],
+  "vim.insertModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<C-j>"],
+      "commands": ["editor.action.insertCursorBelow"]
+    },
+    {
+      "before": ["<C-k>"],
+      "commands": ["editor.action.insertCursorAbove"]
+    }
+  ],
+  "vim.enableNeovim": true,
+  "files.exclude": {
+    "**/.git": false
+  },
+  "[d2]": {
+    "editor.defaultFormatter": "Terrastruct.d2"
+  },
+  "D2.updateTimer": 50000000,
+  "D2.updateOnSave": true,
+  "editor.fontFamily": "'MesloLGS NF', Menlo, Monaco, 'Courier New', monospace",
+  "git.suggestSmartCommit": false,
+  "workbench.colorTheme": "Solarized Light",
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredLightColorTheme": "Default Light+",
+  "workbench.preferredDarkColorTheme": "Default Dark+",
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.duration": 250,
+  "vim.highlightedyank.color": "rgba(250, 0, 250, 0.4)",
+  "[lua]": {
+    "editor.defaultFormatter": "yinfei.luahelper"
+  },
+  "gitlens.views.commitDetails.files.layout": "tree",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.wordBasedSuggestions": "off",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "aws.telemetry": false,
+  "D2.previewLayout": "elk",
+  "gitlens.views.scm.grouped.views": {
+    "commits": false,
+    "branches": false,
+    "remotes": false,
+    "stashes": false,
+    "tags": false,
+    "worktrees": false,
+    "contributors": false,
+    "repositories": false,
+    "searchAndCompare": false,
+    "launchpad": false
+  },
+  "[snippets]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.suggest.snippetsPreventQuickSuggestions": true
+}
